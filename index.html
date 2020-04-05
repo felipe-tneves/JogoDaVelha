@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./utils/jooj.js"></script>
+    <link rel="stylesheet" href="./utils/jooj.css">
+    <title>velhaaaa</title>
+</head>
+
+<body>
+
+    <header id="placar">
+        <div id="indicadorRodada">Rodade de: X</div>
+        <span>
+            <div class="player">X: <p id="PlayerXVitorias"></p>
+            </div>
+            <div class="player">O: <p id="PlayerOVitorias"></p>
+            </div>
+        </span>
+    </header>
+
+    <div id="tabuleiro">
+        <Section>
+            <button class="btn" id="0" onclick="campo(0)"></button>
+            <button class="btn" id="3" onclick="campo(3)"></button>
+            <button class="btn" id="6" onclick="campo(6)"></button>
+        </Section>
+
+        <Section>
+            <button class="btn" id="1" onclick="campo(1)"></button>
+            <button class="btn" id="4" onclick="campo(4)"></button>
+            <button class="btn" id="7" onclick="campo(7)"></button>
+        </Section>
+
+        <Section>
+            <button class="btn" id="2" onclick="campo(2)"></button>
+            <button class="btn" id="5" onclick="campo(5)"></button>
+            <button class="btn" id="8" onclick="campo(8)"></button>
+        </Section>
+    </div>
+
+</body>
+
+</html>
+
+<!-- 
+[1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+[0, 0, 0, 1, 1, 1, 0, 0, 0]
+
+[0, 0, 0, 0, 0, 0, 1, 1, 1]
+
+[1, 0, 0, 1, 0, 0, 1, 0, 0]
+
+[0, 1, 0, 0, 1, 0, 0, 1, 0]
+
+[0, 0, 1, 0, 0, 1, 0, 0, 1]
+
+[1, 0, 0, 0, 1, 0, 0, 0, 1]
+
+[0, 0, 1, 0, 1, 0, 1, 0, 0]
+ -->
